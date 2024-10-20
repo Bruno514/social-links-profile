@@ -19,9 +19,10 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
 
     img.avatar {
-      width: 6rem;
+      width: 5rem;
       border-radius: 3rem;
       margin-bottom: 1rem;
     }
@@ -34,6 +35,7 @@
     &-place {
       color: $green;
       font-weight: 600;
+      margin: .5rem;
     }
     &-info {
       color: $white;

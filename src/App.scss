@@ -2,11 +2,12 @@
 @use "./assets/styles/colors.scss" as *;
 
 #root {
+  height: 100vh;
+  min-height: 40rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-shrink: 1;
-  height: 100vh;
+
 
   * {
     min-width: 0;
