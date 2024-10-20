@@ -1,0 +1,14 @@
+@use "./assets/styles/fonts.scss" as *;
+@use "./assets/styles/colors.scss" as *;
+
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 1;
+  height: 100vh;
+
+  * {
+    min-width: 0;
+  }
+}

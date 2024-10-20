@@ -1,0 +1,65 @@
+@import "./assets/styles/fonts.scss", "./assets/styles/colors.scss";
+
+.card {
+  font-family: "Inter";
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $grey-800;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 20rem;
+  padding-inline: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+  margin: 1rem;
+
+  .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img.avatar {
+      width: 6rem;
+      border-radius: 3rem;
+      margin-bottom: 1rem;
+    }
+    &-name {
+      color: $white;
+      margin: 0;
+      font-weight: 700;
+      font-size: 22px;
+    }
+    &-place {
+      color: $green;
+      font-weight: 600;
+    }
+    &-info {
+      color: $white;
+      font-weight: 400;
+      font-size: 14px;
+    }
+  }
+
+  .links {
+    a {
+      display: block;
+      font-weight: 700;
+      font-size: 14px;
+      background-color: $grey-700;
+      margin-block: 1rem;
+      padding-block: 1em;
+      width: 100%;
+      color: $white;
+      text-align: center;
+      border-radius: 0.5rem;
+      text-decoration: none;
+      &:hover,
+      &:active {
+        color: $grey-900;
+        background-color: $green;
+      }
+    }
+  }
+}

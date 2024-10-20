@@ -1,0 +1,11 @@
+@import "./assets/styles/colors.scss";
+
+:root {
+  background-color: $grey-900;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
